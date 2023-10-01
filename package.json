@@ -1,0 +1,28 @@
+{
+  "name": "neocities-11ty-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "postcss": "npx postcss tailwind-style.css -o src/css/style.css --watch --poll",
+    "build": "npx @11ty/eleventy && npx postcss tailwind-style.css -o www/css/style.css",
+    "upload": "neocities logout -y && neocities push --prune ./www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "concurrently": "^8.2.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
