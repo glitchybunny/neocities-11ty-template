@@ -13,10 +13,10 @@ Also, if you want to use the `upload` functionality, ensure you have the Neociti
 ## Usage
 
 1. Run `npm install` to install all the packages required for the project
-2. Work on your site in the `/src` directory with 11ty and whatever other tools you'd like to use. Your site will be compiled into the `/www` folder.
-3. Run the `dev` script found in `package.json` to create a local development environment to test your website. This will allow you to see changes happening in real-time, most likely at `http://localhost:8081/`.
+2. Work on your site in the `/src` directory with 11ty and whatever other tools you'd like to use. Your site will be compiled into the `/www` folder
+3. Run the `dev` script found in `package.json` to create a local development environment to test your website. This will allow you to see changes happening in real-time, most likely at `http://localhost:8081/`
 4. Once you're happy with how your site looks and you're ready to upload:
-   1. Terminate `dev`.
+   1. Terminate `dev`
    2. Run `build` to generate a nice fresh `/www` directory
    3. Run `upload` and enter your site credentials, wait for everything to upload, and bwam!! Your beautiful webpage is alive <3
 
